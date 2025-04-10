@@ -20,6 +20,7 @@
 :root {
   --background: #ffffffff;
   --foreground: #ffd966ff;
+  --highlight: #c27ba0ff;
 }
 
 @theme inline {
@@ -40,4 +41,26 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar
+{
+  background: var(--highlight);
+}
+
+.LandingHeader
+{
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  background-color: #c27ba0ff
+}
+
+.textblob
+{
+  background-color: #c27ba0ff;
+  padding: 15px;
 }
