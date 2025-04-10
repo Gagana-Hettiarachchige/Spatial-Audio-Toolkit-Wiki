@@ -1,3 +1,12 @@
+/* 
+* FILE          : page.tsx
+* PROJECT       : Spatial Audio Toollkit
+* PROGRAMMER    : Gagana "Gage" Hettiarachchige
+* FIRST VERSION : 2025-04-10
+* DESCRIPTION   :
+*   This file is the landing page of the app.
+*/
+
 import Image from "next/image";
 
 export default function Home() {

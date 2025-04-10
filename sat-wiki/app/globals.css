@@ -1,8 +1,25 @@
+/* 
+* FILE          : global.css
+* PROJECT       : Spatial Audio Toollkit
+* PROGRAMMER    : Gagana "Gage" Hettiarachchige
+* FIRST VERSION : 2025-04-10
+* DESCRIPTION   :
+*   This file styles the app.
+*/
+
 @import "tailwindcss";
 
+/*
+* COLOUR SCHEME.
+* #ffd966ff = gold
+* #ffffffff = white
+* #cccccc = grey
+* #c27ba0ff = purple
+*/
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffffff;
+  --foreground: #ffd966ff;
 }
 
 @theme inline {
@@ -14,8 +31,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffd966ff;
+    --foreground: #ffffffff;
   }
 }
 
