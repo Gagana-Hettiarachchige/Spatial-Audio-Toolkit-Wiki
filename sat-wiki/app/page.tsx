@@ -110,14 +110,28 @@ export default function Home() {
     // </div>
     <div>
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <h1 className="LandingHeader rounded-full border border-solid">
+        {/* Title. */}
+        <h1 className="LandingHeader border border-solid">
             Welcome to the Spatial Audio Toolkit Wiki!
         </h1>
-        <p className="textblob rounded-full border border-solid">
-          Here we write about the stuff that came up when writing the app, 
-          and host a how to and controls page.
-        </p>
-        <p className="textblob rounded-full border border-solid">
+
+        {/* Main page content. */}
+        <div>
+          <p className="textblob border border-solid content-center text-center items-center">
+            Here we document the creation process and a help page with a how to and controls.
+
+          </p>
+          {/* Promo video. */}
+          <div className="flex items-center justify-center textblob">
+              <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/tk71RDny6M8">
+              </iframe>
+          </div>
+        </div>
+        
+        
+      </div>
+        <p className="textblob  border border-solid">
           Founders: 
           Anthony Phan, 
           Gage Hettiarachchige, 
@@ -125,7 +139,6 @@ export default function Home() {
           Jake Warywoda,
           and Saiful Islam 
         </p>
-      </div>
     </div>
   );
 }

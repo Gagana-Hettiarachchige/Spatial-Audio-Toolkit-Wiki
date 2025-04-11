@@ -53,8 +53,6 @@ body {
   padding: 20px;
   font-size: 40px;
   font-weight: bolder;
-  align-self: center;
-  align-content: center;
   text-align: center;
   background-color: #c27ba0ff
 }
@@ -64,3 +62,4 @@ body {
   background-color: #c27ba0ff;
   padding: 15px;
 }
+
