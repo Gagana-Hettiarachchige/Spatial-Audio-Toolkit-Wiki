@@ -119,7 +119,7 @@ export default function Home() {
         <p className="textblobregular border border-solid content-center text-center items-center">
           Here we document the creation process and host an app help page
           which explains how to use the Spatial Audio Toolkit in detail.
-          Founders: 
+          Created by: 
           Anthony Phan, 
           Gage Hettiarachchige, 
           Dario Simpson, 

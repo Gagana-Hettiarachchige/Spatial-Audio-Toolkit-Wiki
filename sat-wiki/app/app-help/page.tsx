@@ -125,16 +125,57 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-
-
-
+        Tip: The user can go back to the project menu by either
+        pressing the 'P' key or selecting the "File" dropdown
+        then selecting the "Back To Project Menu" option
       </div>
 
       {/*  Movement and Looking. */}
       <div className="textblobregular border border-solid">
         <h1>MOVEMENT & LOOKING</h1>
+        <p>
+          Once loaded into a project, the user can move and look around
+          in the space they are loaded in freely.
+        </p>
         <br></br>
-        <p>Once loaded into a project, </p>
+        <br></br>
+
+        <div>
+          <h2>Movement</h2>
+          The user can move vertically and horizontally.
+          <br></br>
+          <br></br>
+          <h3>In an opened project:</h3>
+          1. Use WASD keys to move around where the 'W' key will 
+          move the user forwards, the 'S' key will move the user 
+          backwards, the 'A' key will move the user to the left, 
+          and the 'D' key will move the user to the right relative
+          to their perspective
+          <br></br>
+          2. While holding the SHIFT key, pressing the 'W' key will 
+          instead move the user upwards, and pressing the 'S' key will
+          move the user downwards
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+
+        <div>
+          <h2>Looking</h2>
+          The user can lookaround in the space using the mouse.
+          <br></br>
+          <br></br>
+          <h3>In an opened project:</h3>
+          1. Click and hold the right mouse button (AKA Mouse 2)
+          <br></br>
+          2. Drag towards the direction to look at with the mouse
+          <br></br>
+          3. To stop looking, let got of the the right mouse button
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        
       </div>
 
       {/*  Audio output placement. */}
@@ -147,13 +188,6 @@ export default function Home() {
       {/*  Importing Audio and managing audio clip pool. */}
       <div className="textblobregular border border-solid">
         <h1>IMPORTING AUDIO & MANAGING AUDIO CLIP POOL</h1>
-        <br></br>
-        <p></p>
-      </div>
-
-      {/*  Trackclip management. */}
-      <div className="textblobregular border border-solid">
-        <h1>TRACKCLIP PLACEMENT & MANAGING TRACKCLIPS</h1>
         <br></br>
         <p></p>
       </div>
