@@ -16,7 +16,7 @@ export default function Home() {
       Unity
       <br></br>
       <br></br>
-      When dealing with Git for Unity, 
+      &nbsp;&nbsp;&nbsp;&nbsp;When dealing with Git for Unity, 
       often after git pulling certain components and scripts become detached. 
       This was caused by the fact that GitHub’s default gitignore file 
       by default ignores meta files from Unity, which is what is used by Unity 
@@ -45,7 +45,7 @@ export default function Home() {
       everybody know if were making any changes. 
       <br></br>
       <br></br>
-      Another thing with Unity is that there were a few packages that 
+      &nbsp;&nbsp;&nbsp;&nbsp;Another thing with Unity is that there were a few packages that 
       were helpful to install for functionality (documented in licences doc). 
       We got StandaloneFileBrowser, because Unity doesn’t provide a file dialog
       system like WinForms/WPF. We tried using EditorUtility file browsing 

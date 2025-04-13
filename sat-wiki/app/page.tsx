@@ -109,36 +109,30 @@ export default function Home() {
     //   </footer>
     // </div>
     <div>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        {/* Title. */}
-        <h1 className="LandingHeader border border-solid">
-            Welcome to the Spatial Audio Toolkit Wiki!
-        </h1>
+      {/* Title. */}
+      <h1 className="PageHeader border-solid">
+        Welcome to the Spatial Audio Toolkit Wiki!
+      </h1>
 
-        {/* Main page content. */}
-        <div>
-          <p className="textblob border border-solid content-center text-center items-center">
-            Here we document the creation process and a help page with a how to and controls.
-
-          </p>
-          {/* Promo video. */}
-          <div className="flex items-center justify-center textblob">
-              <iframe width="420" height="315"
-                src="https://www.youtube.com/embed/tk71RDny6M8">
-              </iframe>
-          </div>
-        </div>
-        
-        
-      </div>
-        <p className="textblob  border border-solid">
+      {/* Main page content. */}
+      <div>
+        <p className="textblobregular border border-solid content-center text-center items-center">
+          Here we document the creation process and host an app help page
+          which explains how to use the Spatial Audio Toolkit in detail.
           Founders: 
           Anthony Phan, 
           Gage Hettiarachchige, 
           Dario Simpson, 
           Jake Warywoda,
-          and Saiful Islam 
+          and Saiful Islam.
         </p>
+        {/* Promo video. */}
+        <div className="flex items-center justify-center textblob">
+            <iframe width="420" height="315"
+              src="https://www.youtube.com/embed/tk71RDny6M8">
+            </iframe>
+        </div>
+      </div>
     </div>
   );
 }
