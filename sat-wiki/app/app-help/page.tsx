@@ -417,6 +417,59 @@ export default function Home() {
           <br></br>
           <br></br>
           <br></br>
+        </div>
+      </div>
+
+      {/*  Controlling timeline. */}
+      <div className="textblobregular border border-solid">
+        <h1>CONTROLLING TIMELINE</h1>
+        <p>
+          The timeline is how a user can control the time of the 
+          project, similar to other DAWs. The user can play/pause/reset
+          the time. This time is visually represented to the playhead,
+          a line the spans the timeline (also displayed in text above 
+          timeline). They can also set loops so that a time period is
+          repeated.
+        </p>
+        <br></br>
+        <br></br>
+        <div>
+          <h2>Playing & Pausing</h2>
+          The user can play and pause the time.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project:
+          </h3>
+          1. Press SPACE or select the play icon to play
+          forwards
+          <br></br>
+          2. While it's playing, press SPACE again or select
+          the pause icon to pause
+          <br></br>
+          3. Select the reset icon to stop playing and set the time
+          back to 0
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Controlling Playhead</h2>
+          The user can grab the visual represntation of the time
+          and move it to the new time as desired.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project:
+          </h3>
+          1. Left click (AKA Mouse 1) on the playhead triangle
+          <br></br>
+          2. Drag to new position in timeline
+          <br></br>
+          3. If the timeline is already playing, it will pause until
+          the playhead is let go and then continue playing
+          <br></br>
+          <br></br>
           <br></br>
         </div>
       </div>
