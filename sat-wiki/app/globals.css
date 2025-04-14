@@ -48,7 +48,6 @@ body {
 h1
 {
   font-weight: bolder;
-  text-decoration: underline;
 }
 
 h2
@@ -87,4 +86,18 @@ h3
   color: var(--highlight);
   padding: 15px;
   border-color: var(--background);
+}
+
+.textblobspecial
+{
+  background-color: var(--highlight);
+  color: var(--foreground);
+  padding: 15px;
+  border-color: var(--background);
+}
+
+li
+{
+  color: var(--background);
+  text-decoration: underline;
 }

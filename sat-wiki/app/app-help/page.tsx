@@ -8,6 +8,7 @@
 */
 
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -17,10 +18,162 @@ export default function Home() {
         App Help
       </h1>
 
-      {/****Should make a sections. */}
+      {/* Quick Links. */}
+      <div className="textblobspecial border border-solid">
+        Chapter Quick Links:
+        <ul>
+          <li>
+            <Link href="#project-creation">
+              1. PROJECT CREATION, SAVING, & LOADING
+            </Link>
+          </li>
+          <li>
+            <Link href="#creating-projects">
+              1.1 Creating Projects
+            </Link>
+          </li>
+          <li>
+            <Link href="#saving-projects">
+              1.2 Saving Projects
+            </Link>
+          </li>
+          <li>
+            <Link href="#save-project-as-new">
+              1.3 Save Project As New
+            </Link>
+          </li>
+          <li>
+            <Link href="#loading-projects">
+              1.4 Loading Projects
+            </Link>
+          </li>
+
+
+          <li>
+            <Link href="#movement-and-looking">
+              2. MOVEMENT & LOOKING
+            </Link>
+          </li>
+          <li>
+            <Link href="#movement">
+              2.1 Movement
+            </Link>
+          </li>
+          <li>
+            <Link href="#looking">
+              2.2 Looking
+            </Link>
+          </li>
+
+
+          <li>
+            <Link href="#audio-output-placement">
+              3. AUDIO OUTPUT PLACEMENT
+            </Link>
+          </li>
+          <li>
+            <Link href="#placing-outputs">
+              3.1 Placing Outputs
+            </Link>
+          </li>
+          <li>
+            <Link href="#moving-outputs">
+              3.2 Moving Outputs
+            </Link>
+          </li>
+          <li>
+            <Link href="#deleting-outputs">
+              3.2 Deleting Outputs
+            </Link>
+          </li>
+
+
+          <li>
+            <Link href="#importing-audio-and-managing-audio-clip-pool">
+              4. IMPORTING AUDIO & MANAGING AUDIO CLIP POOL
+            </Link>
+          </li>
+          <li>
+            <Link href="#importing-audio">
+              4.1 Importing Audio
+            </Link>
+          </li>
+          <li>
+            <Link href="#preview-imported-audio">
+              4.2 Previewing Imported Audio
+            </Link>
+          </li>
+          <li>
+            <Link href="#deleting-imported-audio">
+              4.3 Deleting Imported Audio
+            </Link>
+          </li>
+
+          <li>
+            <Link href="#track-clip-placement-and-managing-track-clips">
+              5. TRACK CLIP PLACEMENT & MANAGING TRACK CLIPS
+            </Link>
+          </li>
+          <li>
+            <Link href="#placing-track-clip">
+              5.1 Placing Track Clip
+            </Link>
+          </li>
+          <li>
+            <Link href="#finetuning-track-clip-start">
+              5.2 Finetuning Track Clip Start
+            </Link>
+          </li>
+          <li>
+            <Link href="#trimming-track-clip">
+              5.3 Trimming Track Clip
+            </Link>
+          </li>
+          <li>
+            <Link href="#deleting-track-clip">
+              5.4 Deleting Track Clip
+            </Link>
+          </li>
+
+
+          <li>
+            <Link href="#controlling-timeline">
+              6. CONTROLLING TIMELINE
+            </Link>
+          </li>
+          <li>
+            <Link href="#playing-and-pausing">
+              6.1 Playing & Pausing
+            </Link>
+          </li>
+          <li>
+            <Link href="#controlling-playhead">
+              6.2 Controlling Playhead
+            </Link>
+          </li>
+          <li>
+            <Link href="#setting-loop">
+              6.3 Setting Loop
+            </Link>
+          </li>
+
+          <li>
+            <Link href="#exporting">
+              7. EXPORTING
+            </Link>
+          </li>
+          <li>
+            <Link href="#exporting-audio">
+              7. Exporting Audio
+            </Link>
+          </li>
+        </ul>
+      </div>
+      
+
       
       {/*  Project creation and saving. */}
-      <div className="textblobregular border border-solid">
+      <div id="project-creation" className="textblobregular border border-solid">
         <h1>PROJECT CREATION, SAVING, & LOADING</h1>
         <p>
           The SAT is a DAW like many others which allows users to create,
@@ -30,7 +183,7 @@ export default function Home() {
           dialog).
         </p>
         <br></br>
-        <div>
+        <div id="creating-projects">
           <h2>Creating Projects</h2>
           To get started with the SAT, a user will need to create a 
           project.
@@ -50,7 +203,7 @@ export default function Home() {
           <br></br>
         </div>
 
-        <div>
+        <div id="saving-projects">
           <h2>Saving Projects</h2>
           When a project is changed in anyway (user moves, new output 
           moved or placed, track clips created, etc.) the user can save 
@@ -76,7 +229,7 @@ export default function Home() {
           <br></br>
         </div>
 
-        <div>
+        <div id="save-project-as-new">
           <h2>Save Project As New</h2>
           The user can create a copy of the project opened with an 
           updated name.
@@ -99,7 +252,7 @@ export default function Home() {
           <br></br>
         </div>
 
-        <div>
+        <div id="loading-projects">
           <h2>Loading Projects</h2>
           The user can load an existing project to work on.
           <br></br>
@@ -131,7 +284,8 @@ export default function Home() {
       </div>
 
       {/*  Movement and Looking. */}
-      <div className="textblobregular border border-solid">
+      <div id="movement-and-looking" 
+        className="textblobregular border border-solid">
         <h1>MOVEMENT & LOOKING</h1>
         <p>
           Once loaded into a project, the user can move and look around
@@ -140,7 +294,7 @@ export default function Home() {
         <br></br>
         <br></br>
 
-        <div>
+        <div id="movement">
           <h2>Movement</h2>
           The user can move vertically and horizontally.
           <br></br>
@@ -160,7 +314,7 @@ export default function Home() {
           <br></br>
         </div>
 
-        <div>
+        <div id="looking">
           <h2>Looking</h2>
           The user can lookaround in the space using the mouse.
           <br></br>
@@ -179,7 +333,8 @@ export default function Home() {
       </div>
 
       {/*  Audio output placement. */}
-      <div className="textblobregular border border-solid">
+      <div id="audio-output-placement" 
+        className="textblobregular border border-solid">
         <h1>AUDIO OUTPUT PLACEMENT</h1>
         <p>
           Audio Outputs let the user emit sound from object in the 
@@ -188,7 +343,7 @@ export default function Home() {
         </p>
         <br></br>
         <br></br>
-        <div>
+        <div id="placing-outputs">
           <h2>Placing Outputs</h2>
           The user can place audio outputs.
           <br></br>
@@ -203,7 +358,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="moving-outputs">
           <h2>Moving Outputs</h2>
           The user can move the outputs around on different axes
           using the handles that appear with the selected output.
@@ -225,7 +380,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="deleting-outputs">
           <h2>Deleting Outputs</h2>
           The user can delete an audio output from the space.
           <br></br>
@@ -243,7 +398,8 @@ export default function Home() {
       </div>
 
       {/*  Importing Audio and managing audio clip pool. */}
-      <div className="textblobregular border border-solid">
+      <div id="importing-audio-and-managing-audio-clip-pool" 
+        className="textblobregular border border-solid">
         <h1>IMPORTING AUDIO & MANAGING AUDIO CLIP POOL</h1>
         <p>
           In order to make sound, the user needs to import some
@@ -253,7 +409,7 @@ export default function Home() {
         </p>
         <br></br>
         <br></br>
-        <div>
+        <div id="importing-audio">
           <h2>Importing Audio</h2>
           The user can import audio from their folder search.
           <br></br>
@@ -274,7 +430,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="preview-imported-audio">
           <h2>Previewing Imported Audio</h2>
           The user can preview the imported audio in the clip pool.
           <br></br>
@@ -293,7 +449,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="deleting-imported-audio">
           <h2>Deleting Imported Audio</h2>
           The user can delete the imported audio (this will delete
           any track clips that use that imported audio)
@@ -312,8 +468,9 @@ export default function Home() {
       </div>
 
       {/*  Trackclip management. */}
-      <div className="textblobregular border border-solid">
-        <h1>TRACK CLIP PLACEMENT & MANAGING TRACKCLIPS</h1>
+      <div id="track-clip-placement-and-managing-track-clips" 
+        className="textblobregular border border-solid">
+        <h1>TRACK CLIP PLACEMENT & MANAGING TRACK CLIPS</h1>
         <p>
           Track clips represents an imported audio file with a time 
           to play at on the timeline, how long it should play for, 
@@ -324,7 +481,7 @@ export default function Home() {
         </p>
         <br></br>
         <br></br>
-        <div>
+        <div id="placing-track-clip">
           <h2>Placing Track Clip</h2>
           The user can place these clips onto the timeline with
           a specific output selected so that it's played out of
@@ -350,7 +507,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="finetuning-track-clip-start">
           <h2>Finetuning Track Clip Start</h2>
           The user can enter the a time for a specific track clip to
           start through a dialog.
@@ -374,7 +531,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="trimming-track-clip">
           <h2>Trimming Track Clip</h2>
           The user can edit the duration and start of the clip time
           (eg. start playing in the middle of the original file, 
@@ -400,7 +557,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="deleting-track-clip">
           <h2>Deleting Track Clip</h2>
           The user can delete track clips.
           <br></br>
@@ -421,7 +578,8 @@ export default function Home() {
       </div>
 
       {/*  Controlling timeline. */}
-      <div className="textblobregular border border-solid">
+      <div id="controlling-timeline" 
+        className="textblobregular border border-solid">
         <h1>CONTROLLING TIMELINE</h1>
         <p>
           The timeline is how a user can control the time of the 
@@ -433,7 +591,7 @@ export default function Home() {
         </p>
         <br></br>
         <br></br>
-        <div>
+        <div id="playing-and-pausing">
           <h2>Playing & Pausing</h2>
           The user can play and pause the time.
           <br></br>
@@ -453,7 +611,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="controlling-playhead">
           <h2>Controlling Playhead</h2>
           The user can grab the visual represntation of the time
           and move it to the new time as desired.
@@ -472,7 +630,7 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div id="setting-loop">
           <h2>Setting Loop</h2>
           The user can set a loop period for the timeline.
           <br></br>
@@ -495,7 +653,8 @@ export default function Home() {
       </div>
 
       {/*  Exporting. */}
-      <div className="textblobregular border border-solid">
+      <div id="exporting" 
+        className="textblobregular border border-solid">
         <h1>EXPORTING</h1>
         <p>
           The user can export the project as a WAV as if it
@@ -503,8 +662,8 @@ export default function Home() {
         </p>
         <br></br>
         <br></br>
-        <div>
-          <h2>Exporting audio</h2>
+        <div id="exporting-audio">
+          <h2>Exporting Audio</h2>
           The user can export the audio that is being heard
           <br></br>
           <br></br>
