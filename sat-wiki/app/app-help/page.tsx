@@ -472,13 +472,63 @@ export default function Home() {
           <br></br>
           <br></br>
         </div>
+        <div>
+          <h2>Setting Loop</h2>
+          The user can set a loop period for the timeline.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project:
+          </h3>
+          1. Left click (AKA Mouse 1) on the text next to the loop icon
+          to open the loop dialog
+          <br></br>
+          2. Enter a start and end point in seconds
+          <br></br>
+          3. Confirm the loop by selecting the "Confirm Loop" button
+          <br></br>
+          4. Toggle the loop by pressing the 'T' key
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
       </div>
 
       {/*  Exporting. */}
       <div className="textblobregular border border-solid">
         <h1>EXPORTING</h1>
+        <p>
+          The user can export the project as a WAV as if it
+          were a live recording in a space.
+        </p>
         <br></br>
-        <p></p>
+        <br></br>
+        <div>
+          <h2>Exporting audio</h2>
+          The user can export the audio that is being heard
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project:
+          </h3>
+          1. Press the 'R' key or click on the record icon to start 
+          recording
+          <br></br>
+          2. When audio is recording, everything is picked up by the
+          listener, and the user has direct control over what plays when
+          in the resultatnt export
+          <br></br>
+          3. Press the 'R' key or click on the record icon again to 
+          stop the recording
+          <br></br>
+          4. In the save file dialog, name the file to whatever desired,
+          and select the "Save" button
+          <br></br>
+          <br></br>
+          <br></br>
+          Tip: the listener can be placed and then picked up again using
+          the 'F' key.
+        </div>
       </div>
 
     </div>
