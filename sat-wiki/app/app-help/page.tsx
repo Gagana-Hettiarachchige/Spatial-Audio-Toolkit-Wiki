@@ -215,14 +215,14 @@ export default function Home() {
           <h3>In an opened project:</h3>
           1. Using a shortcut:
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;A) Press CTRL + 'S' keys together OR 
+          1.1 Press CTRL + 'S' keys together OR 
           Press 'E' key
           <br></br>
           2. OR using dropdown:
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;A) Select the 'File' dropdown
+          2.1 Select the 'File' dropdown
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;B) In opened dropdown, click 
+          2.2 In opened dropdown, click 
           'Save Project'
           <br></br>
           <br></br>
@@ -238,14 +238,14 @@ export default function Home() {
           <h3>In an opened project:</h3>
           1. Using a shortcut:
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;A) Press CTRL + SHIFT + 'S' keys 
+          1.1 Press CTRL + SHIFT + 'S' keys 
           together OR Press CTRL + 'E' keys together
           <br></br>
           2. OR using dropdown:
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;A) Select the "File" dropdown
+          2.1 Select the "File" dropdown
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;B) In opened dropdown, click 
+          2.2 In opened dropdown, click 
           "Save Project As"
           <br></br>
           <br></br>
