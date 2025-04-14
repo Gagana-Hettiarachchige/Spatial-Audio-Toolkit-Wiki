@@ -53,7 +53,7 @@ export default function RootLayout({
                     <Link href="/" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Home</Link>
                     <Link href="/creation-story" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Creation Story</Link>
                     <Link href="/app-help" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">App Help</Link>
-                    <Link href="/about-team" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Team</Link>
+                    {/* <Link href="/about-team" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Team</Link> */}
                   </div>
                 </div>
               </div>

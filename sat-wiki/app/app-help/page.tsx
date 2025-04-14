@@ -281,7 +281,7 @@ export default function Home() {
           <br></br>
           <h3>
             In an opened project with the clip pool open and at least
-            one audio file imported.
+            one audio file imported:
           </h3>
           1. Select the play/pause button to hear the audio file played
           back (NOTE THAT PREVIEW CURRENTLY DOESN'T STOP WHEN CLIP POOl
@@ -301,7 +301,7 @@ export default function Home() {
           <br></br>
           <h3>
             In an opened project with the clip pool open and at least
-            one audio file imported.
+            one audio file imported:
           </h3>
           1. Select the trash icon next to the imported file to be 
           deleted
@@ -313,9 +313,112 @@ export default function Home() {
 
       {/*  Trackclip management. */}
       <div className="textblobregular border border-solid">
-        <h1>TRACKCLIP PLACEMENT & MANAGING TRACKCLIPS</h1>
+        <h1>TRACK CLIP PLACEMENT & MANAGING TRACKCLIPS</h1>
+        <p>
+          Track clips represents an imported audio file with a time 
+          to play at on the timeline, how long it should play for, 
+          and where it should start playing from (relative to the file's
+          own time). The user can place these track clips on the timeline
+          with a source selected so that the sound of clip is played
+          from that output when the playhead reaches the track clip.
+        </p>
         <br></br>
-        <p></p>
+        <br></br>
+        <div>
+          <h2>Placing Track Clip</h2>
+          The user can place these clips onto the timeline with
+          a specific output selected so that it's played out of
+          that output in the space.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project with the clip pool open, at least
+            one audio file imported, and at least one audio output
+            placed:
+          </h3>
+          1. Select the audio output to have the track clip be attached
+          to
+          <br></br>
+          2. Hold Left click (AKA Mouse 1) and drag on the waveform 
+          next to the imported audio to place onto the timeline 
+          (whichever layer desired)
+          <br></br>
+          3. Track clips can be moved by holding left click and dragging
+          to around (when further in time means it will be triggered at
+          that time)
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Finetuning Track Clip Start</h2>
+          The user can enter the a time for a specific track clip to
+          start through a dialog.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project with the clip pool open, at least
+            one audio file imported, at least one audio output
+            placed, and at least one track clip placed:
+          </h3>
+          1. Right click on the track clip to be edited to open the
+          dialog
+          <br></br>
+          2. Select the "Finetune Clip Start" option
+          <br></br>
+          3. Enter a new time for the clip to start into the textbox 
+          (as a time in seconds)
+          <br></br>
+          4. Select the "Apply" button or press ENTER
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Trimming Track Clip</h2>
+          The user can edit the duration and start of the clip time
+          (eg. start playing in the middle of the original file, 
+          cuttoff after some number of seconds).
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project with the clip pool open, at least
+            one audio file imported, at least one audio output
+            placed, and at least one track clip placed:
+          </h3>
+          1. Right click on the track clip to be edited to open the
+          dialog
+          <br></br>
+          2. Select the "Trim Clip" option
+          <br></br>
+          3. Enter the trim start and/or trim end time in seconds
+          relative to the clip itself (eg. keep start of clip: 
+          trim start = 0)
+          <br></br>
+          4. Select "Apply Trim" to confirm
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Deleting Track Clip</h2>
+          The user can delete track clips.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project with the clip pool open, at least
+            one audio file imported, at least one audio output
+            placed, and at least one track clip placed:
+          </h3>
+          1. Right click on the track clip to be edited to open the
+          dialog
+          <br></br>
+          2. Select the "Delete Clip" option
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
       </div>
 
       {/*  Exporting. */}
