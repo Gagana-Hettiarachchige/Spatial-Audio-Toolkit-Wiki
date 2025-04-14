@@ -235,8 +235,7 @@ export default function Home() {
           source in the interface to select it (the handles will then 
           appear)
           <br></br>
-          2. Click the trash icon in the interface
-          <br></br>
+          2. Select the trash icon in the interface
           <br></br>
           <br></br>
           <br></br>
@@ -246,8 +245,70 @@ export default function Home() {
       {/*  Importing Audio and managing audio clip pool. */}
       <div className="textblobregular border border-solid">
         <h1>IMPORTING AUDIO & MANAGING AUDIO CLIP POOL</h1>
+        <p>
+          In order to make sound, the user needs to import some
+          audio files into the project. The audio is then cached
+          in the project save directory so the paths of the original
+          audio files don't matter.
+        </p>
         <br></br>
-        <p></p>
+        <br></br>
+        <div>
+          <h2>Importing Audio</h2>
+          The user can import audio from their folder search.
+          <br></br>
+          <br></br>
+          <h3>In an opened project:</h3>
+          1. Select the "Open Audio Clip Pool" button
+          <br></br>
+          2. Select the "Import Audio" button
+          <br></br>
+          3. From the file browser dialog, select a valid .mp3, .wav, 
+          or .ogg file
+          <br></br>
+          4. Select the "Open" button in the file browser dialog
+          <br></br>
+          5. To close the clip pool, select the "Close" button in
+          the clip pool
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Previewing Imported Audio</h2>
+          The user can preview the imported audio in the clip pool.
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project with the clip pool open and at least
+            one audio file imported.
+          </h3>
+          1. Select the play/pause button to hear the audio file played
+          back (NOTE THAT PREVIEW CURRENTLY DOESN'T STOP WHEN CLIP POOl
+          IS CLOSED)
+          <br></br>
+          2. Select the handle on the slider to navigate to a different
+          point in time in the imported audio file
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Deleting Imported Audio</h2>
+          The user can delete the imported audio (this will delete
+          any track clips that use that imported audio)
+          <br></br>
+          <br></br>
+          <h3>
+            In an opened project with the clip pool open and at least
+            one audio file imported.
+          </h3>
+          1. Select the trash icon next to the imported file to be 
+          deleted
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
       </div>
 
       {/*  Trackclip management. */}
