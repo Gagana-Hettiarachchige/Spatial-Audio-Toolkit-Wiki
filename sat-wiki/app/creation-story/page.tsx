@@ -12,10 +12,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <p className="textblob">
-      Unity
-      <br></br>
-      <br></br>
+      {/* Title. */}
+      <h1 className="PageHeader border-solid">
+        Creation Story
+      </h1>
+      <p className="textblobregular">
       &nbsp;&nbsp;&nbsp;&nbsp;When dealing with Git for Unity, 
       often after git pulling certain components and scripts become detached. 
       This was caused by the fact that GitHub’s default gitignore file 
@@ -47,11 +48,23 @@ export default function Home() {
       <br></br>
       &nbsp;&nbsp;&nbsp;&nbsp;Another thing with Unity is that there were a few packages that 
       were helpful to install for functionality (documented in licences doc). 
-      We got StandaloneFileBrowser, because Unity doesn’t provide a file dialog
-      system like WinForms/WPF. We tried using EditorUtility file browsing 
+      We got StandaloneFileBrowser, because Unity doesn’t provide a file 
+      dialog system like WinForms/WPF. We tried using EditorUtility file browsing 
       methods which worked, but only in the editor (because we didn’t realize
       that the class is designed for building Unity extensions, 
       and don't work when compiled into a build).
+      <br></br>
+      <br></br>
+      &nbsp;&nbsp;&nbsp;&nbsp;Creating the room presets was very fun and 
+      easy to do. Most of the rooms were fairly basic due to the tools 
+      that Unity offers by default. It gives you simple tools to create,
+      edit and transform basic shapes. When creating the stadium preset, 
+      it required extra tooling which Unity also provided in the form of 
+      a package. The package ProBuilder, added another layer of 
+      customizability for creating custom geometry and textures. This 
+      resulted in custom shaped stadium with different levels of seating
+       which would require a lot of extra work if done with the default 
+       tools. 
       </p>
     </div>
   );
