@@ -170,7 +170,7 @@ export default function Home() {
           <br></br>
           2. Drag towards the direction to look at with the mouse
           <br></br>
-          3. To stop looking, let got of the the right mouse button
+          3. To stop looking, let go of the the right mouse button
           <br></br>
           <br></br>
           <br></br>
@@ -181,8 +181,66 @@ export default function Home() {
       {/*  Audio output placement. */}
       <div className="textblobregular border border-solid">
         <h1>AUDIO OUTPUT PLACEMENT</h1>
+        <p>
+          Audio Outputs let the user emit sound from object in the 
+          space. The user place (by default snapping to the floor)
+          and move them around freely as well.
+        </p>
         <br></br>
-        <p></p>
+        <br></br>
+        <div>
+          <h2>Placing Outputs</h2>
+          The user can place audio outputs.
+          <br></br>
+          <br></br>
+          <h3>In an opened project:</h3>
+          1. Select the audio output icon
+          <br></br>
+          2. Move the mouse onto the space's floor
+          <br></br>
+          3. Click the left mouse button (AKA mouse 1)
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Moving Outputs</h2>
+          The user can move the outputs around on different axes
+          using the handles that appear with the selected output.
+          <br></br>
+          <br></br>
+          <h3>In an opened project:</h3>
+          1. Click on an audio output in the space OR click on the
+          source in the interface to select it (the handles will then 
+          appear)
+          <br></br>
+          2. Click on any of the arrow handles and drag to move the 
+          output strictly on the associated axis, OR click and drag 
+          on either of the two square handles to move on two axes at the 
+          same time
+          <br></br>
+          3. To stop selecting an audio output, select the selected
+          audio output source in the interface
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>
+          <h2>Deleting Outputs</h2>
+          The user can delete an audio output from the space.
+          <br></br>
+          <br></br>
+          <h3>In an opened project with already placed audio outputs:</h3>
+          1. Click on an audio output in the space OR click on the
+          source in the interface to select it (the handles will then 
+          appear)
+          <br></br>
+          2. Click the trash icon in the interface
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
       </div>
 
       {/*  Importing Audio and managing audio clip pool. */}
