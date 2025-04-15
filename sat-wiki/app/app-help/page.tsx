@@ -316,7 +316,7 @@ export default function Home() {
 
         <div id="looking">
           <h2>Looking</h2>
-          The user can lookaround in the space using the mouse.
+          The user can look around in the space using the mouse.
           <br></br>
           <br></br>
           <h3>In an opened project:</h3>
@@ -337,8 +337,8 @@ export default function Home() {
         className="textblobregular border border-solid">
         <h1>AUDIO OUTPUT PLACEMENT</h1>
         <p>
-          Audio Outputs let the user emit sound from object in the 
-          space. The user place (by default snapping to the floor)
+          Audio Outputs let the user emit sound from an object in the 
+          space. The user can place (by default snapping to the floor)
           and move them around freely as well.
         </p>
         <br></br>
@@ -472,11 +472,11 @@ export default function Home() {
         className="textblobregular border border-solid">
         <h1>TRACK CLIP PLACEMENT & MANAGING TRACK CLIPS</h1>
         <p>
-          Track clips represents an imported audio file with a time 
+          Track clips represent an imported audio file with a time 
           to play at on the timeline, how long it should play for, 
           and where it should start playing from (relative to the file's
           own time). The user can place these track clips on the timeline
-          with a source selected so that the sound of clip is played
+          with a source selected so that the sound of the clip is played
           from that output when the playhead reaches the track clip.
         </p>
         <br></br>
@@ -509,7 +509,7 @@ export default function Home() {
         </div>
         <div id="finetuning-track-clip-start">
           <h2>Finetuning Track Clip Start</h2>
-          The user can enter the a time for a specific track clip to
+          The user can enter a time for a specific track clip to
           start through a dialog.
           <br></br>
           <br></br>
@@ -535,7 +535,7 @@ export default function Home() {
           <h2>Trimming Track Clip</h2>
           The user can edit the duration and start of the clip time
           (eg. start playing in the middle of the original file, 
-          cuttoff after some number of seconds).
+          cutt off after some number of seconds).
           <br></br>
           <br></br>
           <h3>
@@ -613,7 +613,7 @@ export default function Home() {
         </div>
         <div id="controlling-playhead">
           <h2>Controlling Playhead</h2>
-          The user can grab the visual represntation of the time
+          The user can grab the visual representation of the time
           and move it to the new time as desired.
           <br></br>
           <br></br>
@@ -675,7 +675,7 @@ export default function Home() {
           <br></br>
           2. When audio is recording, everything is picked up by the
           listener, and the user has direct control over what plays when
-          in the resultatnt export
+          in the resultant export
           <br></br>
           3. Press the 'R' key or click on the record icon again to 
           stop the recording
