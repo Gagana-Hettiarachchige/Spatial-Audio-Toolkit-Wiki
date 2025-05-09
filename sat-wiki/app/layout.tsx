@@ -31,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+      <body suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {/* Wiki Nav Bar. Based on first usage: https://tailwindcss.com/plus/ui-blocks/application-ui/navigation/navbars#component-70a9bdf83ef2c8568c5cddf6c39c2331*/}
